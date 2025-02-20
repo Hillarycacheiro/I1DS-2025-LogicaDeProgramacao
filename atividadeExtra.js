@@ -52,10 +52,23 @@ console.log(tabuada, "x 7 =", tabuada * 7);
 console.log(tabuada, "x 8 =", tabuada * 8);
 console.log(tabuada, "x 9 =", tabuada * 9);
 console.log(tabuada, "x 10 =", tabuada * 10);
- 
+
 // 3. Fatorial de um número
 console.log("Fatorial de 5! =", 5 * 4 * 3 * 2 * 1);
 
 //4. Soma dos Números de um Array
 let numeros = [10, 20, 30, 40];
 numeros[0] + numeros + [1] + numeros[2] + numeros[3];
+
+//1. Par ou Ímpar?
+const imparpar = (num) => {
+  return num % 2 == 0 ? "O número é par!" : "O número é impar!";
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(2));
+
+//5. Ordenação de Números
+const ordemNumero = [8, 3, 5, 1, 9];
+console.log(ordemNumero);
+console.log(ordemNumero.sort());
